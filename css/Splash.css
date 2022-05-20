@@ -1,0 +1,51 @@
+﻿.custom-body {
+    animation: Background 3s ease-out;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+    opacity: 0;
+    animation: Fade 3.2s ease-in-out;
+}
+
+.EntryUsername, .EntrySpecialty {
+    font-size: 60px;
+    font-family: Raleway;
+    font-weight: 600;
+    padding: 15px;
+    color: snow;
+    text-shadow: 0 0 15px black;
+    z-index: 10;
+}
+
+.EntrySpecialty {
+    font-size: 20px;
+    border: 1px solid snow;
+    border-radius: 10rem;
+    right: unset;
+}
+
+.Splash-lottie {
+    padding: 15px;
+    height: 70vh;
+}
+
+@keyframes Background {
+    0%,100% {
+        background: #536DFE;
+    }
+}
+
+@keyframes Fade {
+    0%,80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
