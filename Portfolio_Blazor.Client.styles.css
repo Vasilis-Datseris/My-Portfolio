@@ -223,7 +223,7 @@ body[b-tt1a0ky6ah] {
     transition: .25s all ease-in-out;
     left: 50%;
     top: 0%;
-    transform: translate(-50%, 0%);
+    transform: translateX(-50%);
     animation: FadeIn-b-ayi7nw45fs 1s forwards;
 }
 
@@ -765,7 +765,7 @@ body[b-n4wjjnmwwh] {
         align-items: center;
         height: 40vh;
         /*transform: translateY(1rem);*/
-        margin-top: 1rem;
+        margin-top: 3.7rem;
     }
     [b-w33ih9wdga] .timelines > .mud-timeline {
         /*align-self: start;*/
@@ -1096,6 +1096,12 @@ body[b-z0b4xlexf9] {
 
 [b-od955iasmu] .mud-appbar {
     overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    [b-od955iasmu] .mud-toolbar {
+        padding: 0;
+    }
 }
 /* /Shared/Drawer.razor.rz.scp.css */
 [b-m8tu23ybre] .mud-drawer {
